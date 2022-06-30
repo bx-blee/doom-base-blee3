@@ -198,6 +198,10 @@
 (setq display-line-numbers-type nil)
 
 ;;; Un-doom
+(setq-default bidi-display-reordering t) ;;; idiot Westerners at Doom set this to 'left-to-right in the name of efficiency
+(setq-default bidi-paragraph-direction nil) ;;; idiot Westerners at Doom set this to 'left-to-right in the name of efficiency
+(setq bidi-inhibit-bpa nil) ;;; idiot Westerners at Doom set this to 'left-to-right in the name of efficiency
+
 (setq auth-sources '("~/.authinfo" "~/.authinfo.gpg" "~/.netrc"))
 (setq gnutls-verify-error nil)
 (setq gnutls-algorithm-priority nil)
