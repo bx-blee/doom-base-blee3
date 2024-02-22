@@ -205,5 +205,3 @@
 (setq auth-sources '("~/.authinfo" "~/.authinfo.gpg" "~/.netrc"))
 (setq gnutls-verify-error nil)
 (setq gnutls-algorithm-priority nil)
-
-(load-file (concat (file-name-directory load-file-name) "blee-init.el"))
