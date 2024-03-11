@@ -205,3 +205,5 @@
 (setq auth-sources '("~/.authinfo" "~/.authinfo.gpg" "~/.netrc"))
 (setq gnutls-verify-error nil)
 (setq gnutls-algorithm-priority nil)
+
+(message (format "Loaded: %s -- in emacs-%s" load-file-name emacs-version))
