@@ -34,7 +34,8 @@
  '(org-fast-tag-selection-single-key 'expert)
  '(org-reverse-note-order t)
  '(safe-local-variable-values
-   '((eval bx:load-file:ifOneExists "./panelActions.el")
+   '((major-mode . sh-mode)
+     (eval bx:load-file:ifOneExists "./panelActions.el")
      (eval blee:fill-column-indicator/enable)
      (eval set-fill-column 115)
      (eval img-link-overlays)
