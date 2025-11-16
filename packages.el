@@ -54,7 +54,7 @@
 (package! bbdb)
 (package! bbdb-ext)
 
-(package! emms)
+;; (package! emms)
 
 (package! ov)
 (package! org-bullets)
